@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Rides</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo-container">
+    <img src="logo.png" class="logo">
+    <span class="logo-text">Happy Rides</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#" class="nav-link active" onclick="showSection('home', this)">Home</a></li>
+    <li><a href="#" class="nav-link" onclick="showSection('about', this)">About</a></li>
+    <li><a href="available.html" class="nav-link">Available</a></li>
+    <li><a href="contact.html" class="nav-link">Contact</a></li>
+  </ul>
+
+  <div>
+    <a href="login.html"><button class="login-btn">Login</button></a>
+    <a href="signup.html"><button class="signup-btn">Sign Up</button></a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section active-section">
+  <h1>Ride Happy with Happy Rides 🛵</h1>
+  <p class="subtitle">Affordable • Easy • Reliable Bike Rentals</p>
+
+  <button class="book-btn">Book Now</button>
+
+  <p class="info">No deposit • Instant booking • 24/7 support</p>
+
+  <h2 class="why-title">Why Choose Happy Rides?</h2>
+
+  <div class="why-cards">
+    <div class="card">⚡ Fast Booking</div>
+    <div class="card">💰 Affordable Price</div>
+    <div class="card">🛠 Well Maintained Bikes</div>
+    <div class="card">📍 City Wide Availability</div>
+  </div>
+
+  <div class="stats">
+    <div>
+      <h3>500+</h3>
+      <p>Happy Customers</p>
+    </div>
+    <div>
+      <h3>120+</h3>
+      <p>Bikes Available</p>
+    </div>
+    <div>
+      <h3>24/7</h3>
+      <p>Customer Support</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h1 class="about-title">🚀 Our Story</h1>
+  <p class="about-subtitle">One bike. One dream. Endless smiles.</p>
+  <p class="about-desc">
+    Happy Rides started with a simple idea — make travel easy,
+    affordable and joyful for everyone.
+  </p>
+
+  <div class="timeline">
+    <div class="timeline-card">🏁 <h3>2023</h3><p>Company Started</p></div>
+    <div class="timeline-card">🚲 <h3>2024</h3><p>50+ Bikes Added</p></div>
+    <div class="timeline-card">🌍 <h3>2025</h3><p>City Wide Expansion</p></div>
+    <div class="timeline-card highlight">⭐ <h3>Now</h3><p>500+ Riders</p></div>
+  </div>
+
+  <h2 class="why-title">💛 Why We Are Different?</h2>
+  <div class="why-cards">
+    <div class="card">✔ Affordable Pricing</div>
+    <div class="card">✔ Easy Booking</div>
+    <div class="card">✔ Well Maintained Bikes</div>
+    <div class="card">✔ Trusted by Riders</div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
